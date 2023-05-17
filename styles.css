@@ -1,0 +1,54 @@
+.conteiner { 
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+
+.row { 
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px;
+    }
+
+.column { 
+    flex: 1;
+    padding: 10px;
+    }
+
+    @media ( max-width: 600px) {
+        .column {
+            flex: 100%;
+        }
+    }
+
+body  { background-color: rgb(223, 156, 94); 
+        color:black;
+        margin: 0%;
+}
+
+.conteiner-nav {display: flex; 
+    padding: 12px; 
+    height: 50px;
+    color: rgb(31, 36, 36); 
+    background-color: azure;}
+
+.nav-links {display: flex;
+            justify-content: space-between;
+            width: 100px;}
+
+.navbar {display: flex;
+        justify-content: space-between;
+    width: 100px;}
+    
+
+ link { padding: 8px 24px}   
+
+ a {color: blue;
+    display: flex;
+    justify-content: space-between;
+    width: 100px;}
+
+ .button-menu-toggle {display: none;}
+
+ 
+
